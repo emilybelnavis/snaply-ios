@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */; };
+		A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47F2AA7A25500749685 /* ContentView.swift */; };
+		A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B4812AA7A25600749685 /* Assets.xcassets */; };
+		A1E7B4852AA7A25600749685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B4842AA7A25600749685 /* Preview Assets.xcassets */; };
+		A1E7B48F2AA7A25600749685 /* SnaplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B48E2AA7A25600749685 /* SnaplyTests.swift */; };
+		A1E7B4992AA7A25600749685 /* SnaplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B4982AA7A25600749685 /* SnaplyUITests.swift */; };
+		A1E7B49B2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B49A2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E7B48B2AA7A25600749685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E7B4722AA7A25500749685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E7B4792AA7A25500749685;
+			remoteInfo = Snaply;
+		};
+		A1E7B4952AA7A25600749685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E7B4722AA7A25500749685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E7B4792AA7A25500749685;
+			remoteInfo = Snaply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1E7B47A2AA7A25500749685 /* Snaply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snaply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyApp.swift; sourceTree = "<group>"; };
+		A1E7B47F2AA7A25500749685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1E7B4812AA7A25600749685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1E7B4842AA7A25600749685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1E7B48A2AA7A25600749685 /* SnaplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnaplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7B48E2AA7A25600749685 /* SnaplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyTests.swift; sourceTree = "<group>"; };
+		A1E7B4942AA7A25600749685 /* SnaplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnaplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E7B4982AA7A25600749685 /* SnaplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyUITests.swift; sourceTree = "<group>"; };
+		A1E7B49A2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E7B4772AA7A25500749685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4872AA7A25600749685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4912AA7A25600749685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E7B4712AA7A25500749685 = {
+			isa = PBXGroup;
+			children = (
+				A1E7B47C2AA7A25500749685 /* Snaply */,
+				A1E7B48D2AA7A25600749685 /* SnaplyTests */,
+				A1E7B4972AA7A25600749685 /* SnaplyUITests */,
+				A1E7B47B2AA7A25500749685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E7B47B2AA7A25500749685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B47A2AA7A25500749685 /* Snaply.app */,
+				A1E7B48A2AA7A25600749685 /* SnaplyTests.xctest */,
+				A1E7B4942AA7A25600749685 /* SnaplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E7B47C2AA7A25500749685 /* Snaply */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */,
+				A1E7B47F2AA7A25500749685 /* ContentView.swift */,
+				A1E7B4812AA7A25600749685 /* Assets.xcassets */,
+				A1E7B4832AA7A25600749685 /* Preview Content */,
+			);
+			path = Snaply;
+			sourceTree = "<group>";
+		};
+		A1E7B4832AA7A25600749685 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B4842AA7A25600749685 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1E7B48D2AA7A25600749685 /* SnaplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B48E2AA7A25600749685 /* SnaplyTests.swift */,
+			);
+			path = SnaplyTests;
+			sourceTree = "<group>";
+		};
+		A1E7B4972AA7A25600749685 /* SnaplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B4982AA7A25600749685 /* SnaplyUITests.swift */,
+				A1E7B49A2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift */,
+			);
+			path = SnaplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E7B4792AA7A25500749685 /* Snaply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7B49E2AA7A25600749685 /* Build configuration list for PBXNativeTarget "Snaply" */;
+			buildPhases = (
+				A1E7B4762AA7A25500749685 /* Sources */,
+				A1E7B4772AA7A25500749685 /* Frameworks */,
+				A1E7B4782AA7A25500749685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snaply;
+			productName = Snaply;
+			productReference = A1E7B47A2AA7A25500749685 /* Snaply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E7B4892AA7A25600749685 /* SnaplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7B4A12AA7A25600749685 /* Build configuration list for PBXNativeTarget "SnaplyTests" */;
+			buildPhases = (
+				A1E7B4862AA7A25600749685 /* Sources */,
+				A1E7B4872AA7A25600749685 /* Frameworks */,
+				A1E7B4882AA7A25600749685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E7B48C2AA7A25600749685 /* PBXTargetDependency */,
+			);
+			name = SnaplyTests;
+			productName = SnaplyTests;
+			productReference = A1E7B48A2AA7A25600749685 /* SnaplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1E7B4932AA7A25600749685 /* SnaplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E7B4A42AA7A25600749685 /* Build configuration list for PBXNativeTarget "SnaplyUITests" */;
+			buildPhases = (
+				A1E7B4902AA7A25600749685 /* Sources */,
+				A1E7B4912AA7A25600749685 /* Frameworks */,
+				A1E7B4922AA7A25600749685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E7B4962AA7A25600749685 /* PBXTargetDependency */,
+			);
+			name = SnaplyUITests;
+			productName = SnaplyUITests;
+			productReference = A1E7B4942AA7A25600749685 /* SnaplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E7B4722AA7A25500749685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A1E7B4792AA7A25500749685 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A1E7B4892AA7A25600749685 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1E7B4792AA7A25500749685;
+					};
+					A1E7B4932AA7A25600749685 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1E7B4792AA7A25500749685;
+					};
+				};
+			};
+			buildConfigurationList = A1E7B4752AA7A25500749685 /* Build configuration list for PBXProject "Snaply" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E7B4712AA7A25500749685;
+			productRefGroup = A1E7B47B2AA7A25500749685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E7B4792AA7A25500749685 /* Snaply */,
+				A1E7B4892AA7A25600749685 /* SnaplyTests */,
+				A1E7B4932AA7A25600749685 /* SnaplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E7B4782AA7A25500749685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7B4852AA7A25600749685 /* Preview Assets.xcassets in Resources */,
+				A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4882AA7A25600749685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4922AA7A25600749685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E7B4762AA7A25500749685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */,
+				A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4862AA7A25600749685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7B48F2AA7A25600749685 /* SnaplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E7B4902AA7A25600749685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7B4992AA7A25600749685 /* SnaplyUITests.swift in Sources */,
+				A1E7B49B2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E7B48C2AA7A25600749685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E7B4792AA7A25500749685 /* Snaply */;
+			targetProxy = A1E7B48B2AA7A25600749685 /* PBXContainerItemProxy */;
+		};
+		A1E7B4962AA7A25600749685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E7B4792AA7A25500749685 /* Snaply */;
+			targetProxy = A1E7B4952AA7A25600749685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1E7B49C2AA7A25600749685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1E7B49D2AA7A25600749685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E7B49F2AA7A25600749685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snaply/Preview Content\"";
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.Snaply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1E7B4A02AA7A25600749685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Snaply/Preview Content\"";
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.Snaply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1E7B4A22AA7A25600749685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.SnaplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snaply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snaply";
+			};
+			name = Debug;
+		};
+		A1E7B4A32AA7A25600749685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.SnaplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snaply.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snaply";
+			};
+			name = Release;
+		};
+		A1E7B4A52AA7A25600749685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.SnaplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snaply;
+			};
+			name = Debug;
+		};
+		A1E7B4A62AA7A25600749685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.emilybelnavis.SnaplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Snaply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E7B4752AA7A25500749685 /* Build configuration list for PBXProject "Snaply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7B49C2AA7A25600749685 /* Debug */,
+				A1E7B49D2AA7A25600749685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7B49E2AA7A25600749685 /* Build configuration list for PBXNativeTarget "Snaply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7B49F2AA7A25600749685 /* Debug */,
+				A1E7B4A02AA7A25600749685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7B4A12AA7A25600749685 /* Build configuration list for PBXNativeTarget "SnaplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7B4A22AA7A25600749685 /* Debug */,
+				A1E7B4A32AA7A25600749685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E7B4A42AA7A25600749685 /* Build configuration list for PBXNativeTarget "SnaplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E7B4A52AA7A25600749685 /* Debug */,
+				A1E7B4A62AA7A25600749685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E7B4722AA7A25500749685 /* Project object */;
+}
