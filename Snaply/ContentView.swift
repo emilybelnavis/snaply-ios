@@ -2,7 +2,8 @@
 //  ContentView.swift
 //  Snaply
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-05.
+//  Created by Emily Belnavis
+//  Date: 2023-09-05
 //
 
 import SwiftUI
