@@ -9,15 +9,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+  var body: some View {
+    VStack {
+      MapView()
+        .ignoresSafeArea(edges: .top)  
+        .frame(height: 300)
+      
+      ImagePreview()
+        .offset(y: -130)
+        .padding(.bottom, -130)
+      
+      VStack(alignment: .leading) {
+        Text("Distillery District Gates")
+          .font(.title)
+        HStack {
+          Text("Distillery District")
+          Spacer()
+          Text("Toronto, Ontario")
         }
-        .padding()
+        .font(.subheadline)
+        .foregroundColor(.secondary)
+      }
+      .padding()
+      
+      Spacer()
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {

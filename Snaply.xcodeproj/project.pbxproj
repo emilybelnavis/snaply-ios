@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20862AB0D9B3002CED92 /* ImagePreview.swift */; };
+		A18F20892AB10445002CED92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20882AB10445002CED92 /* MapView.swift */; };
 		A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */; };
 		A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47F2AA7A25500749685 /* ContentView.swift */; };
 		A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B4812AA7A25600749685 /* Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		A1E7B48F2AA7A25600749685 /* SnaplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B48E2AA7A25600749685 /* SnaplyTests.swift */; };
 		A1E7B4992AA7A25600749685 /* SnaplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B4982AA7A25600749685 /* SnaplyUITests.swift */; };
 		A1E7B49B2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B49A2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift */; };
-		A1E7B4A92AA7A2BD00749685 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B4A82AA7A2BD00749685 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A18F20862AB0D9B3002CED92 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
+		A18F20882AB10445002CED92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A1E7B47A2AA7A25500749685 /* Snaply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snaply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyApp.swift; sourceTree = "<group>"; };
 		A1E7B47F2AA7A25500749685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		A1E7B4942AA7A25600749685 /* SnaplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnaplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E7B4982AA7A25600749685 /* SnaplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyUITests.swift; sourceTree = "<group>"; };
 		A1E7B49A2AA7A25600749685 /* SnaplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A1E7B4A82AA7A2BD00749685 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 				A1E7B4A72AA7A2A400749685 /* Model */,
 				A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */,
 				A1E7B47F2AA7A25500749685 /* ContentView.swift */,
+				A18F20862AB0D9B3002CED92 /* ImagePreview.swift */,
+				A18F20882AB10445002CED92 /* MapView.swift */,
 				A1E7B4812AA7A25600749685 /* Assets.xcassets */,
 				A1E7B4832AA7A25600749685 /* Preview Content */,
 			);
@@ -133,7 +137,6 @@
 		A1E7B4A72AA7A2A400749685 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A1E7B4A82AA7A2BD00749685 /* Photo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -268,9 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */,
+				A18F20892AB10445002CED92 /* MapView.swift in Sources */,
 				A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */,
 				A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */,
-				A1E7B4A92AA7A2BD00749685 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
