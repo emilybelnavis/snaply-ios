@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11F9ADF2AB1229C00A64DBA /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9ADE2AB1229C00A64DBA /* Entry.swift */; };
+		A11F9AE32AB138AE00A64DBA /* EntryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9AE22AB138AE00A64DBA /* EntryRow.swift */; };
+		A11F9AE62AB13F4000A64DBA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9AE52AB13F4000A64DBA /* ModelData.swift */; };
+		A11F9AE92AB1422700A64DBA /* EntryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9AE82AB1422700A64DBA /* EntryList.swift */; };
+		A11F9AEA2AB142A300A64DBA /* entryData.json in Resources */ = {isa = PBXBuildFile; fileRef = A11F9ADC2AB1161C00A64DBA /* entryData.json */; };
+		A11F9AEC2AB1528F00A64DBA /* EntryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */; };
 		A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20862AB0D9B3002CED92 /* ImagePreview.swift */; };
 		A18F20892AB10445002CED92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20882AB10445002CED92 /* MapView.swift */; };
 		A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11F9ADC2AB1161C00A64DBA /* entryData.json */ = {isa = PBXFileReference; explicitFileType = text.json; name = entryData.json; path = Snaply/Resources/entryData.json; sourceTree = SOURCE_ROOT; };
+		A11F9ADE2AB1229C00A64DBA /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		A11F9AE22AB138AE00A64DBA /* EntryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRow.swift; sourceTree = "<group>"; };
+		A11F9AE52AB13F4000A64DBA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A11F9AE82AB1422700A64DBA /* EntryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryList.swift; sourceTree = "<group>"; };
+		A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetail.swift; sourceTree = "<group>"; };
 		A18F20862AB0D9B3002CED92 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 		A18F20882AB10445002CED92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A1E7B47A2AA7A25500749685 /* Snaply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snaply.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +87,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A11F9AE12AB137C500A64DBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7B47F2AA7A25500749685 /* ContentView.swift */,
+				A18F20862AB0D9B3002CED92 /* ImagePreview.swift */,
+				A18F20882AB10445002CED92 /* MapView.swift */,
+				A11F9AE22AB138AE00A64DBA /* EntryRow.swift */,
+				A11F9AE82AB1422700A64DBA /* EntryList.swift */,
+				A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A18F208A2AB1158E002CED92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11F9ADC2AB1161C00A64DBA /* entryData.json */,
+			);
+			name = Resources;
+			path = Snaply/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
 		A1E7B4712AA7A25500749685 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +132,10 @@
 		A1E7B47C2AA7A25500749685 /* Snaply */ = {
 			isa = PBXGroup;
 			children = (
+				A11F9AE12AB137C500A64DBA /* Views */,
 				A1E7B4A72AA7A2A400749685 /* Model */,
+				A18F208A2AB1158E002CED92 /* Resources */,
 				A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */,
-				A1E7B47F2AA7A25500749685 /* ContentView.swift */,
-				A18F20862AB0D9B3002CED92 /* ImagePreview.swift */,
-				A18F20882AB10445002CED92 /* MapView.swift */,
 				A1E7B4812AA7A25600749685 /* Assets.xcassets */,
 				A1E7B4832AA7A25600749685 /* Preview Content */,
 			);
@@ -137,6 +170,8 @@
 		A1E7B4A72AA7A2A400749685 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A11F9ADE2AB1229C00A64DBA /* Entry.swift */,
+				A11F9AE52AB13F4000A64DBA /* ModelData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F9AEA2AB142A300A64DBA /* entryData.json in Resources */,
 				A1E7B4852AA7A25600749685 /* Preview Assets.xcassets in Resources */,
 				A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */,
 			);
@@ -271,9 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F9AEC2AB1528F00A64DBA /* EntryDetail.swift in Sources */,
+				A11F9AE32AB138AE00A64DBA /* EntryRow.swift in Sources */,
+				A11F9AE92AB1422700A64DBA /* EntryList.swift in Sources */,
 				A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */,
 				A18F20892AB10445002CED92 /* MapView.swift in Sources */,
 				A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */,
+				A11F9AE62AB13F4000A64DBA /* ModelData.swift in Sources */,
+				A11F9ADF2AB1229C00A64DBA /* Entry.swift in Sources */,
 				A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

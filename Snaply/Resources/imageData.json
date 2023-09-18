@@ -1,0 +1,48 @@
+[
+    {
+        "id": "7a52faa6-e60f-4d66-8856-04fcb8663c35",
+        "name": "Parking Lot Mural",
+        "city": "Toronto",
+        "state": "Ontario",
+        "locationName": "Gerrard Street GreenP",
+        "dateTime": "2023-08-30T15:59:17-0400",
+        "coordinates": {
+            "longitude": -79.353170,
+            "latitude": 43.665167
+        },
+        "imageName": "sample1",
+        "cameraDetails": {
+            "filmStock": "Kodak Ektar 100",
+            "cameraName": "Canon AE-1",
+            "cameraId": "A",
+            "lens": "Canon FD 50mm f/1.8",
+            "shutterSpeed": "1/250",
+            "apeture": "f/6.7",
+            "reel": 1,
+            "shot": 30
+        }
+    },
+    {
+        "id": "644d5a3e-aaaa-4aca-bd6f-e802c49515fa",
+        "name": "Distillery District Entrance",
+        "city": "Toronto",
+        "state": "Ontario",
+        "locationName": "Distillery District",
+        "dateTime": "2023-08-30T16:25:32-0400",
+        "coordinates": {
+            "longitude": -79.357136,
+            "latitude": 43.650812
+        },
+        "imageName": "sample2",
+        "cameraDetails": {
+            "filmStock": "Cinestill 400D",
+            "cameraName": "Canon AE-1",
+            "cameraID": "A",
+            "lens": "Canon FD 50mm f/1.8",
+            "shutterSpeed": "1/125",
+            "apeture": "f/6.7",
+            "reel": 3,
+            "shot": 15
+        }
+    }
+]
