@@ -1,9 +1,8 @@
-//
 //  SnaplyTests.swift
 //  SnaplyTests
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-05.
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import XCTest
 @testable import Snaply

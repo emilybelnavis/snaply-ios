@@ -1,9 +1,8 @@
-//
 //  MapView.swift
 //  Snaply
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-12.
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import Foundation
 import SwiftUI
@@ -11,26 +10,19 @@ import MapKit
 
 struct MapView: View {
   var coordinate: CLLocationCoordinate2D
+  var locationName: String
   
-  @State private var region = MKCoordinateRegion()
+  //@State private var region = MKCoordinateRegion()
   
   var body: some View {
-    Map(coordinateRegion: $region)
-      .onAppear {
-        setRegion(coordinate)
-      }
-  }
-  
-  private func setRegion(_ coordinate: CLLocationCoordinate2D) {
-    region = MKCoordinateRegion(
-      center: coordinate,
-      span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
-    )
+    Map(bounds: MapCameraBounds( minimumDistance: 250, maximumDistance: 250)) {
+      Marker(locationName, coordinate: coordinate)
+    }
   }
 }
 
 struct MapView_Previews: PreviewProvider {
   static var previews: some View {
-    MapView(coordinate: CLLocationCoordinate2D(latitude: 43.650_812, longitude: -79.357_136))
+    MapView(coordinate: CLLocationCoordinate2D(latitude: 43.650_812, longitude: -79.357_136), locationName: "Photo Location")
   }
 }

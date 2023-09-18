@@ -1,9 +1,8 @@
-//
 //  EntryDetail.swift
 //  Snaply
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-12.
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import SwiftUI
 
@@ -12,7 +11,7 @@ struct EntryDetail: View {
   
   var body: some View {
     ScrollView {
-      MapView(coordinate: entry.locationCoordinates)
+      MapView(coordinate: entry.locationCoordinates, locationName: entry.name)
         .ignoresSafeArea(edges: .top)
         .frame(height: 300)
       

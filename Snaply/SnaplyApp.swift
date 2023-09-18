@@ -1,9 +1,8 @@
-//
 //  SnaplyApp.swift
 //  Snaply
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-05.
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import SwiftUI
 

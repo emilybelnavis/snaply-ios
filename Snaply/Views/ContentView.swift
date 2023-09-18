@@ -1,10 +1,8 @@
-//
 //  ContentView.swift
 //  Snaply
 //
-//  Created by Emily Belnavis
-//  Date: 2023-09-05
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import SwiftUI
 

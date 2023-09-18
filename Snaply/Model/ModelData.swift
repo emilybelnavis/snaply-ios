@@ -1,9 +1,8 @@
-//
 //  ModelData.swift
 //  Snaply
 //
-//  Created by Samantha Emily-Rachel Belnavis on 2023-09-12.
-//
+//  Copyright © 2023 Emily Belnavis
+//  All Rights Reserved.
 
 import Foundation
 
