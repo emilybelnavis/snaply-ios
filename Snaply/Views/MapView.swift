@@ -12,8 +12,6 @@ struct MapView: View {
   var coordinate: CLLocationCoordinate2D
   var locationName: String
   
-  //@State private var region = MKCoordinateRegion()
-  
   var body: some View {
     Map(bounds: MapCameraBounds( minimumDistance: 250, maximumDistance: 250)) {
       Marker(locationName, coordinate: coordinate)

@@ -31,6 +31,7 @@ struct EntryDetail: View {
         .font(.subheadline)
         .foregroundColor(.secondary)
       }
+      
       Divider()
     }
     .padding()
