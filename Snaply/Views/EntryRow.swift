@@ -39,6 +39,11 @@ struct EntryRow: View {
         Label("Edit", systemImage: "pencil")
       }.tint(.blue)
     }
+    .sheet(item: $imageEntryEdit) {
+      imageEntryEdit = nil
+    } content: { entry in
+        UpdateImageEntry(imageEntry: entry)
+    }
   }
 }
 

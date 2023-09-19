@@ -20,6 +20,7 @@
 		A18F20892AB10445002CED92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20882AB10445002CED92 /* MapView.swift */; };
 		A1B264012AB925AB0062A243 /* MapItemPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A1B264002AB925AB0062A243 /* MapItemPicker */; };
 		A1B264042AB925D90062A243 /* PhotosPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A1B264032AB925D90062A243 /* PhotosPicker */; };
+		A1B2640B2AB964C50062A243 /* UpdateImageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2640A2AB964C50062A243 /* UpdateImageEntry.swift */; };
 		A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */; };
 		A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47F2AA7A25500749685 /* ContentView.swift */; };
 		A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B4812AA7A25600749685 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		A16476AD2AB9160C005FF29E /* AddImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageEntry.swift; sourceTree = "<group>"; };
 		A18F20862AB0D9B3002CED92 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 		A18F20882AB10445002CED92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A1B2640A2AB964C50062A243 /* UpdateImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateImageEntry.swift; sourceTree = "<group>"; };
 		A1E7B47A2AA7A25500749685 /* Snaply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snaply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnaplyApp.swift; sourceTree = "<group>"; };
 		A1E7B47F2AA7A25500749685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				A11F9AE82AB1422700A64DBA /* EntryList.swift */,
 				A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */,
 				A16476AD2AB9160C005FF29E /* AddImageEntry.swift */,
+				A1B2640A2AB964C50062A243 /* UpdateImageEntry.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				A11F9AE32AB138AE00A64DBA /* EntryRow.swift in Sources */,
 				A11F9AE92AB1422700A64DBA /* EntryList.swift in Sources */,
 				A16476AE2AB9160C005FF29E /* AddImageEntry.swift in Sources */,
+				A1B2640B2AB964C50062A243 /* UpdateImageEntry.swift in Sources */,
 				A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */,
 				A18F20892AB10445002CED92 /* MapView.swift in Sources */,
 				A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */,

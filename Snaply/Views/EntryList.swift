@@ -26,9 +26,7 @@ import SwiftData
 
 struct EntryList: View {
   @State private var showAddEntry = false
-
   @Query private var entries: [ImageEntryItem]
-  
   var body: some View {
     NavigationStack {
       List(entries) { entry in
