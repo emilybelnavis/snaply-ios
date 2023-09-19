@@ -7,28 +7,41 @@
 import SwiftUI
 
 struct EntryRow: View {
-  var entry: Entry
+  @Environment(\.modelContext) var context
+  @State private var imageEntryEdit: ImageEntryItem?
+  
+  var entry: ImageEntryItem
   
   var body: some View {
     HStack {
-      entry.image
-        .resizable()
-        .frame(width: 64, height: 64)
-      
       VStack(alignment: .leading) {
-        Text(entry.name)
+        Text(entry.entryName)
+          .font(.largeTitle)
         Text(entry.locationName)
-          .font(.subheadline)
+          .font(.title)
           .foregroundColor(.secondary)
+        Text("\(entry.timestamp, format: Date.FormatStyle(date: .abbreviated, time: .standard, locale: .autoupdatingCurrent, calendar: .autoupdatingCurrent, timeZone: .autoupdatingCurrent))")
       }
+    }
+    .swipeActions {
+      // Swipe buttons are populated from right to left!
+      Button(role: .destructive) {
+        withAnimation {
+          context.delete(entry)
+        }
+      } label: {
+        Label("Delete", systemImage: "trash")
+          .symbolVariant(.fill)
+      }
+      Button {
+        imageEntryEdit = entry
+      } label:  {
+        Label("Edit", systemImage: "pencil")
+      }.tint(.blue)
     }
   }
 }
 
-struct EntryRow_Previews: PreviewProvider {
-  static var previews: some View {
-    Group {
-      EntryRow(entry: entries[0])
-    }
-  }
+#Preview {
+  EntryRow(entry: ImageEntryItem())
 }

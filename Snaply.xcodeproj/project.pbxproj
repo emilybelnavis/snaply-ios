@@ -14,8 +14,12 @@
 		A11F9AEA2AB142A300A64DBA /* entryData.json in Resources */ = {isa = PBXBuildFile; fileRef = A11F9ADC2AB1161C00A64DBA /* entryData.json */; };
 		A11F9AEC2AB1528F00A64DBA /* EntryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */; };
 		A12DC9EA2AB8B98C00C3272B /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = A12DC9E92AB8B98C00C3272B /* IDETemplateMacros.plist */; };
+		A16476AC2AB912E8005FF29E /* ImageEntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16476AB2AB912E8005FF29E /* ImageEntryItem.swift */; };
+		A16476AE2AB9160C005FF29E /* AddImageEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16476AD2AB9160C005FF29E /* AddImageEntry.swift */; };
 		A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20862AB0D9B3002CED92 /* ImagePreview.swift */; };
 		A18F20892AB10445002CED92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F20882AB10445002CED92 /* MapView.swift */; };
+		A1B264012AB925AB0062A243 /* MapItemPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A1B264002AB925AB0062A243 /* MapItemPicker */; };
+		A1B264042AB925D90062A243 /* PhotosPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A1B264032AB925D90062A243 /* PhotosPicker */; };
 		A1E7B47E2AA7A25500749685 /* SnaplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47D2AA7A25500749685 /* SnaplyApp.swift */; };
 		A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7B47F2AA7A25500749685 /* ContentView.swift */; };
 		A1E7B4822AA7A25600749685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E7B4812AA7A25600749685 /* Assets.xcassets */; };
@@ -52,6 +56,8 @@
 		A12DC9E72AB8125600C3272B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A12DC9E82AB812A300C3272B /* Snaply.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snaply.entitlements; sourceTree = "<group>"; };
 		A12DC9E92AB8B98C00C3272B /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
+		A16476AB2AB912E8005FF29E /* ImageEntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntryItem.swift; sourceTree = "<group>"; };
+		A16476AD2AB9160C005FF29E /* AddImageEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageEntry.swift; sourceTree = "<group>"; };
 		A18F20862AB0D9B3002CED92 /* ImagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
 		A18F20882AB10445002CED92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A1E7B47A2AA7A25500749685 /* Snaply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snaply.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B264012AB925AB0062A243 /* MapItemPicker in Frameworks */,
+				A1B264042AB925D90062A243 /* PhotosPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +108,7 @@
 				A11F9AE22AB138AE00A64DBA /* EntryRow.swift */,
 				A11F9AE82AB1422700A64DBA /* EntryList.swift */,
 				A11F9AEB2AB1528F00A64DBA /* EntryDetail.swift */,
-				A12DC9E92AB8B98C00C3272B /* IDETemplateMacros.plist */,
+				A16476AD2AB9160C005FF29E /* AddImageEntry.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 		A1E7B47C2AA7A25500749685 /* Snaply */ = {
 			isa = PBXGroup;
 			children = (
+				A12DC9E92AB8B98C00C3272B /* IDETemplateMacros.plist */,
 				A12DC9E82AB812A300C3272B /* Snaply.entitlements */,
 				A12DC9E72AB8125600C3272B /* Info.plist */,
 				A11F9AE12AB137C500A64DBA /* Views */,
@@ -179,6 +188,7 @@
 			children = (
 				A11F9ADE2AB1229C00A64DBA /* Entry.swift */,
 				A11F9AE52AB13F4000A64DBA /* ModelData.swift */,
+				A16476AB2AB912E8005FF29E /* ImageEntryItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +209,10 @@
 			dependencies = (
 			);
 			name = Snaply;
+			packageProductDependencies = (
+				A1B264002AB925AB0062A243 /* MapItemPicker */,
+				A1B264032AB925D90062A243 /* PhotosPicker */,
+			);
 			productName = Snaply;
 			productReference = A1E7B47A2AA7A25500749685 /* Snaply.app */;
 			productType = "com.apple.product-type.application";
@@ -271,6 +285,10 @@
 				Base,
 			);
 			mainGroup = A1E7B4712AA7A25500749685;
+			packageReferences = (
+				A1B263FF2AB925AB0062A243 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */,
+				A1B264022AB925D90062A243 /* XCRemoteSwiftPackageReference "swiftui-photos-picker" */,
+			);
 			productRefGroup = A1E7B47B2AA7A25500749685 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -316,8 +334,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11F9AEC2AB1528F00A64DBA /* EntryDetail.swift in Sources */,
+				A16476AC2AB912E8005FF29E /* ImageEntryItem.swift in Sources */,
 				A11F9AE32AB138AE00A64DBA /* EntryRow.swift in Sources */,
 				A11F9AE92AB1422700A64DBA /* EntryList.swift in Sources */,
+				A16476AE2AB9160C005FF29E /* AddImageEntry.swift in Sources */,
 				A18F20872AB0D9B3002CED92 /* ImagePreview.swift in Sources */,
 				A18F20892AB10445002CED92 /* MapView.swift in Sources */,
 				A1E7B4802AA7A25500749685 /* ContentView.swift in Sources */,
@@ -670,6 +690,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1B263FF2AB925AB0062A243 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-map-item-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A1B264022AB925D90062A243 /* XCRemoteSwiftPackageReference "swiftui-photos-picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-photos-picker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1B264002AB925AB0062A243 /* MapItemPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B263FF2AB925AB0062A243 /* XCRemoteSwiftPackageReference "swiftui-map-item-picker" */;
+			productName = MapItemPicker;
+		};
+		A1B264032AB925D90062A243 /* PhotosPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1B264022AB925D90062A243 /* XCRemoteSwiftPackageReference "swiftui-photos-picker" */;
+			productName = PhotosPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1E7B4722AA7A25500749685 /* Project object */;
 }

@@ -5,10 +5,13 @@
 //  All Rights Reserved.
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+  
   var body: some View {
     EntryList()
+      .modelContainer(for: ImageEntryItem.self)
   }
 }
 
